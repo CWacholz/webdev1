@@ -1,0 +1,107 @@
+<style>
+
+    body {
+        background: url(http://static3.grsites.com/archive/textures/ss/ss162.jpg)
+        }
+    h1 {
+        background-color: cyan;
+        margin-left: 700px;
+        margin-right: 669px;
+        text-align: center;
+     }
+    h3 {
+        background-color: cyan;
+        text-align: left;
+        margin-left: 350px;
+        margin-right: 280px;
+        margin-bottom: 70px;
+      }
+    h3:hover {
+        color: white;
+        background-color: black;
+      }
+    img {
+        margin: auto;
+        display: block;
+      }
+    #topleft {
+        margin-top: -220px;    
+        margin-right: -260px;
+        padding-right: -100px;
+        display: block;
+        float: left;
+        transform: scale(.15);
+      }
+    div.relative {
+        top: 300px;
+      }
+    #midright {
+        display: block;
+        margin-top: -100px;
+        margin-left: 1250px;
+      }
+    #botleft {
+        display: block;
+        transform: scale(.15);
+        float: left;
+        margin-top: -375px;
+        margin-left: -45px;
+      }
+    #thankyou {
+        display: block;
+        transform: scale(.5);
+        float: bottom;
+        margin-left: -580px;
+        margin-top: -100px;
+      }
+</style>
+
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <h1 style="font-family:sans-serif"> 
+            CritHub 
+        </h1>
+    
+        <img src="https://web.archive.org/web/20091027082310im_/http://www.geocities.com/EnchantedForest/Glade/3028/foodforyourbrain_anim.gif;">
+    
+        <img src="https://web.archive.org/web/20091021172031im_/http://geocities.com/haitianballer101/Bookreport/REVIEW_PAGE_13368.gif;"
+            style="margin-top:20px;"
+            style="position:absolute;">
+    
+        <img src="https://stjohnregional.org/wp-content/uploads/2017/09/free-letter-writing-clipart-e1570551571354.png;"
+            id="topleft;">
+
+        <h3 style="font-family:Verdana;"
+            style="float:left;">
+            Read up on all the latest and greatest criticism from across the web!
+        </h3>
+  
+        <h3 style="font-family:Verdana;"
+            style="margin-bottom:300px;">
+            Check out our favorite sites and blogs!
+        </h3>
+  
+        <img src="https://web.archive.org/web/20091027155518im_/http://www.geocities.com/bbee_bird/look.gif;" id="midright">
+        <br>
+        <br>
+        <h3 style="font-family:Verdana;"
+            style="padding:200px;">
+            Do you have something to submit? Email us!
+        </h3>
+  
+        <img src="http://www.clker.com/cliparts/5/e/a/c/1516456877192231115clipart-email-icon.hi.png;"
+            id="botleft;">
+  
+        <br>
+  
+        <img src="http://www.clker.com/cliparts/1/9/6/a/15161731021341048278free-animated-thank-you-clipart-for-powerpoint.hi.png;"
+            id="thankyou;">
+
+    </body>
+</html>
