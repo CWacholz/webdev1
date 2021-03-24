@@ -1,0 +1,54 @@
+body {
+        background: url(http://static3.grsites.com/archive/textures/ss/ss162.jpg)
+        }
+    h1 {
+        background-color: cyan;
+        margin-left: 700px;
+        margin-right: 669px;
+        text-align: center;
+     }
+    h3 {
+        background-color: cyan;
+        text-align: left;
+        margin-left: 350px;
+        margin-right: 280px;
+        margin-bottom: 70px;
+      }
+    h3:hover {
+        color: white;
+        background-color: black;
+      }
+    img {
+        margin: auto;
+        display: block;
+      }
+    #topleft {
+        margin-top: -220px;    
+        margin-right: -260px;
+        padding-right: -100px;
+        display: block;
+        float: left;
+        transform: scale(.15);
+      }
+    div.relative {
+        top: 300px;
+      }
+    #midright {
+        display: block;
+        margin-top: -100px;
+        margin-left: 1250px;
+      }
+    #botleft {
+        display: block;
+        transform: scale(.15);
+        float: left;
+        margin-top: -375px;
+        margin-left: -45px;
+      }
+    #thankyou {
+        display: block;
+        transform: scale(.5);
+        float: bottom;
+        margin-left: -580px;
+        margin-top: -100px;
+      }
