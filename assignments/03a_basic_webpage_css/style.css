@@ -1,0 +1,32 @@
+header {
+    background-color: lime;
+    padding: 50px 100px 50px 100px
+    }
+  h1 {
+   background-color: magenta;
+   margin: 0px 0px 0px 0px;
+   padding: 0px 400px 0px 400px;
+  }
+  h2 {
+   background-color: orange;
+   margin: 0px  0px 0px 0px;
+   padding: 0px 500px 0px 500px;
+  }
+  h3 {
+   background-color: #FFFDD0;
+   margin: 70px 100px 5px 100px
+  }
+  p {
+   background-color: teal;
+   margin: -5px 100px 5px 100px
+  }
+  body {
+   background-color: #CC8899;
+   margin: 0px 20px 0px 20px;
+   padding: 150px 0px 400px 0px;
+    }
+  footer {
+   background-color: grey;
+   margin: 100px 0px 0px 0px;
+   padding: 0px 700px 0px 700px;
+    }
