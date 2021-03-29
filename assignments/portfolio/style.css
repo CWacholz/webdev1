@@ -1,0 +1,23 @@
+body {
+    background-color: slategray;
+}
+
+header {
+    font-family: lexend;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: lexend;
+    color: white;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: palegoldenrod;
+}
+
+h4:hover {
+    color: blue;
+    text-decoration: underline;
+}
