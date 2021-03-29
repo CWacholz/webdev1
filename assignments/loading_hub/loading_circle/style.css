@@ -1,0 +1,19 @@
+.load_circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    top: 10%;
+    left: 10%;
+    position: absolute;
+    border: red;
+    border-bottom-color: salmon;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation: loading;
+    transform: translate3d(-50%, -50%, 0);
+}
+
+@keyframes loading {
+
+}
