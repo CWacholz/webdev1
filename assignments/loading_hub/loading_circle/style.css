@@ -22,3 +22,7 @@
     animation: loading;
     transform: translate3d(-50%, -50%, 0);
 }
+
+body {
+    background-color: skyblue;
+}
