@@ -5,7 +5,11 @@ body {
 header {
     font-family: lexend;
     color: whitesmoke;
-    font-size: large;
+}
+
+footer {
+    font-family: lexend;
+    color: whitesmoke;
 }
 
 h2 {
