@@ -36,7 +36,7 @@ body {
     color: rgb(113, 0, 128);
     font-size: 22px;
     text-align: center;
-    animation: bounce 2s linear infinite;
+    animation: bounce 2s linear;
 }
 
 @keyframes load {
