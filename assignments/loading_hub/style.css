@@ -1,0 +1,24 @@
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(22,9,121,1) 35%, rgba(222,0,255,1) 100%);
+}
+
+body {
+    background: palegoldenrod;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rebeccapurple;
+}
+
+footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: palevioletred;
+}
