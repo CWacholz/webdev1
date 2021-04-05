@@ -1,16 +1,21 @@
 #wrapper {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    align-self: center;
 }
 
 #phone {
     display: flex;
     flex-direction: column;
+    position: absolute;
+    align-self: center;
 }
 
 #row {
     display: flex;
     flex-direction: row;
+    align-self: center;
 }
 
 .app {
@@ -18,7 +23,8 @@
         padding: 10px;
         width: 30px;
         height: 30px;
-        margin: 20px;
+        margin: 15px;
+        align-self: center;
         background-color: red;
 }
 
