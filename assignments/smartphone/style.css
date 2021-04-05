@@ -29,6 +29,7 @@
         align-self: center;
         background-image: url(http://www.clker.com/cliparts/b/4/5/9/12236111601800075995dynnamitt_home.svg.med.png);
         background-color: rgb(8, 180, 180);
+        background-size: contain;
 }
 
 .app2 {
@@ -38,7 +39,9 @@
     height: 30px;
     margin: 15px;
     align-self: center;
-    background-color: red;
+    background-image: url(https://iconsplace.com/wp-content/uploads/_icons/ffffff/256/png/twitter-icon-18-256.png);
+    background-color: lightskyblue;
+    background-size: contain;
 }
 
 .app3 {
@@ -48,7 +51,8 @@
     height: 30px;
     margin: 15px;
     align-self: center;
-    background-color: red;
+    background-size: contain;
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/925cfe2dbd3709b1775e52736bcc0eb77c92be6e/38ebe/images/product-identity-assets/firefox-variant.png);
 }
 
 .app4 {
@@ -58,7 +62,8 @@
     height: 30px;
     margin: 15px;
     align-self: center;
-    background-color: red;
+    background-image: url(https://evergreenengineering.com/wp-content/uploads/2019/06/LinkedIn_logo_initials.png);
+    background-size: contain;
 }
 
 .app5 {
