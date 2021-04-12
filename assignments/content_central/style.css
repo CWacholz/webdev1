@@ -1,0 +1,14 @@
+#thumbnail {
+    display: flex;
+    size: 100px;
+    background-size: contain;
+}
+
+#description {
+    display: flex;
+
+}
+
+#row {
+    flex-direction: row;
+}
