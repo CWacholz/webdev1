@@ -1,14 +1,12 @@
-#thumbnail_1 {
-    display: flex;
-    background-size: contain;
-    background-image: url(https://assets1.ignimgs.com/2021/02/09/littlenightmaresii-blogroll-1612848309067.jpg);
+.containter {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 15px;
 }
 
-#description {
-    display: flex;
-
-}
-
-#row {
-    flex-direction: row;
+.thumbnail {
+    width: 20%;
+  height: 20;
+  display: flex;
 }
