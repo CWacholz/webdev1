@@ -10,3 +10,27 @@
   height: 20;
   display: flex;
 }
+
+.box_1 {
+  border: 2px solid black;
+}
+
+h1 {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+p {
+  text-align: right;
+}
+
+img {
+  align-self: left;
+}
