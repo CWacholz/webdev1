@@ -12,7 +12,8 @@
 }
 
 .box_1 {
-  border: 2px solid black;
+  width: 400px;
+  padding-left: 10px;
 }
 
 h1 {
@@ -33,4 +34,8 @@ p {
 
 img {
   align-self: left;
+}
+
+.box_1 :hover {
+  border: 2px solid black;
 }
