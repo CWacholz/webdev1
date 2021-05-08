@@ -12,8 +12,9 @@
 }
 
 .box_1 {
-  width: 400px;
+  width: 450px;
   padding-left: 10px;
+  height: fit-content;
 }
 
 h1 {
