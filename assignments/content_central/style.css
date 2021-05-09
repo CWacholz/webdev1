@@ -7,9 +7,10 @@
 
 .thumbnail {
   width: 20%;
-  height: 20%;
-  display: flex;
-}
+  height: 20;
+  display: inline-block;
+  margin-right: 10px;
+  }
 
 .box_1 {
   width: 450px;
@@ -30,8 +31,10 @@ h3 {
 }
 
 p {
-  text-align: right;
-}
+  margin-top: -55px;
+  margin-left: 100px;
+  float: left;
+  }
 
 img {
   align-self: left;
