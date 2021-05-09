@@ -12,7 +12,7 @@
   margin-right: 10px;
   }
 
-.box_1 {
+.box {
   width: 450px;
   padding-left: 10px;
   height: fit-content;
@@ -40,6 +40,10 @@ img {
   align-self: left;
 }
 
-.box_1 :hover {
+.box :hover {
   border: 2px solid black;
+}
+
+.second {
+  float: left;
 }
