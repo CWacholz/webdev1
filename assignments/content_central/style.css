@@ -1,49 +1,62 @@
 .containter {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 5vw);
-    grid-gap: 15px;
+  display: flex;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 5vw);
+  grid-gap: 15px;
 }
 
-.thumbnail {
-  width: 20%;
-  height: 20;
-  display: inline-block;
-  margin-right: 10px;
-  }
+.thumbnail_1 {
+width: 20%;
+height: 20;
+display: inline-block;
+margin-right: 10px;
+}
+
+.thumbnail_2 {
+width: 20%;
+display: inline-block;
+margin-right: 10px
+}
 
 .box {
-  width: 450px;
-  padding-left: 10px;
-  height: fit-content;
+width: 450px;
+padding-left: 10px;
+height: fit-content;
+background-color: #e8a87c;
 }
 
 h1 {
-  text-align: center;
-  display: block;
-  width: 100%;
+text-align: center;
+display: block;
+width: 100%;
 }
 
 h3 {
-  text-align: center;
-  display: block;
-  width: 100%;
+text-align: center;
+display: block;
+width: 100%;
 }
 
-p {
-  margin-top: -55px;
-  margin-left: 100px;
-  float: left;
-  }
+.description_1 {
+position: absolute;
+left: 160px;
+top: 130px;
+}
+
+.description_2 {
+position: absolute;
+left: 160px;
+top: 210px;
+}
 
 img {
-  align-self: left;
+align-self: left;
 }
 
 .box :hover {
-  border: 2px solid black;
+background-color: #e27d60;
 }
 
-.second {
-  float: left;
+body {
+  background-color: #85dcb3;
 }
