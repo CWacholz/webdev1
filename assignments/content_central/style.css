@@ -7,7 +7,6 @@
 
 .thumbnail_1 {
 width: 20%;
-height: 20;
 display: inline-block;
 margin-right: 10px;
 }
@@ -35,41 +34,37 @@ margin-right: 10px
 }
 
 h1 {
-text-align: center;
-display: block;
-width: 100%;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 
 h3 {
-text-align: center;
-display: block;
-width: 100%;
+  text-align: center;
+  display: block;
+  width: 100%;
 }
 
 .description_1 {
   position: absolute;
   left: 665px;
   top: 130px;
-  }
+}
   
-  .description_2 {
+.description_2 {
   position: absolute;
   left: 665px;
   top: 195px;
-  }
+}
   
-  .description_3 {
-    position: absolute;
-    left: 665px;
-    top: 255px;
-  }
-
-img {
-align-self: left;
+.description_3 {
+  position: absolute;
+  left: 665px;
+  top: 255px;
 }
 
 .box :hover {
-background-color: #e27d60;
+  background-color: #e27d60;
 }
 
 body {
