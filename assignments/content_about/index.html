@@ -7,10 +7,26 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body onload="load_bar()" style="margin:0;">
+    <div id="loader"></div>
+    <div style="display:none;" id="myDiv" class="animate"></div>
     <img src="https://pbs.twimg.com/profile_images/1216568742949400577/zoSBL1ra_400x400.jpg" alt="A picture of me.">
     <h1> About Me </h1>
     <p> about me pending </p>
     <h3> <a href="https://cwacholz.github.io/webdev1/assignments/content_central/index.html"> Return Home </a> </h3>
+
+    <script>
+        var myVar;
+        
+        function load_bar() {
+          myVar = setTimeout(showPage, 3000);
+        }
+        
+        function showPage() {
+          document.getElementById("loader").style.display = "none";
+          document.getElementById("main_page").style.display = "block";
+        }
+    </script>
+
 </body>
 </html>

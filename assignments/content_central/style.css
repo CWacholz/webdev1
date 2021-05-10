@@ -19,10 +19,13 @@ margin-right: 10px
 }
 
 .box {
-width: 450px;
-padding-left: 10px;
-height: fit-content;
-background-color: #e8a87c;
+  width: 450px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  height: fit-content;
+  background-color: #e8a87c;
+  margin: auto;
 }
 
 h1 {
@@ -40,13 +43,13 @@ width: 100%;
 .description_1 {
 position: absolute;
 left: 160px;
-top: 130px;
+top: 125px;
 }
 
 .description_2 {
 position: absolute;
 left: 160px;
-top: 210px;
+top: 175px;
 }
 
 img {
@@ -58,5 +61,48 @@ background-color: #e27d60;
 }
 
 body {
-  background-color: #85dcb3;
+  background-color: #41b3a3;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #41b3a3;
+  border-radius: 50%;
+  border-top: 16px solid #e27d60;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.animate {
+  position: relative;
+  -webkit-animation-name: loading;
+  -webkit-animation-duration: 1s;
+  animation-name: loading;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes loading {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes loading { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
 }
